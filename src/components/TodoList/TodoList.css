@@ -1,0 +1,118 @@
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    border: 1px solid #f2adf5;
+    background: linear-gradient(to right bottom, #688ffb, #fd38d9e3);
+    border-radius: 10px;
+    padding: 10px;
+    max-height: 70px;
+}
+
+@media (max-width: 550px) {
+    .todos {
+        width: 70vw;
+    }
+
+}
+
+.list {
+    width: 220px;
+    background-color: transparent;
+    border: none;
+    color: rgb(58, 5, 5);
+    font-size: 20px;
+    padding-left: 10px;
+    margin-right: 15px;
+    font-weight: bolder;
+    outline: none;
+}
+
+.button {
+    font-size: 28px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: font-size .5s ease-in-out;
+
+
+
+}
+
+.complt-text {
+    width: 220px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-right: 15px;
+    outline: none;
+    text-decoration: line-through;
+    color: #440a16a0;
+}
+/* 
+.button:hover {
+    font-size: 33px;
+
+} */
+
+.options button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid #15c4f4;
+    background: none;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.button-complete {
+    color: #012601c4;
+    margin-right: 20px;
+
+}
+
+.button-edit {
+    color: #3621efd9;
+    margin-right: 20px;
+
+
+}
+
+.button-delete {
+    color: #3402025f;
+    margin-right: 20px;
+
+
+}
+
+@media (max-width: 550px) {
+    .button-complete {
+        color: #2bf08a;
+        margin-right: 10px;
+
+
+    }
+
+    .button-edit {
+        color: #02272bd9;
+        margin-right: 10px;
+
+
+    }
+
+    .button-delete {
+        color: #1d0202;
+        margin-right: 10px;
+
+
+    }
+
+}

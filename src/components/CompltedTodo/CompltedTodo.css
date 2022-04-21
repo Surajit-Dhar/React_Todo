@@ -1,0 +1,15 @@
+.button{
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, #0a98f1, #6dfbde9c);
+    
+    cursor: pointer;
+    transition: background-color 1.2s;
+}
+.compltebn{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

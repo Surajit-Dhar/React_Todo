@@ -1,0 +1,33 @@
+.input-task {
+    margin-top: 1.8em;
+
+    width: 310px;
+    outline: none;
+    padding: 15px;
+    font-size: 20px;
+    margin-right: 25px;
+    color: rgba(0, 0, 0, 0.626);
+    border: 1px solid #c89666;
+    background: linear-gradient(to right bottom, #aec0f3, #fd3bd9e3);
+    border-radius: 10px;
+}
+
+.add {
+    width: 80px;
+    padding: 15px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, #aec0f3, #f93cd6e3);
+    border:none;
+    font-weight: bolder;
+    cursor: pointer;
+    color:white;
+    transition: background-color 1.2s;
+}
+
+.add:hover {
+
+    background-color: black;
+    color: white;
+   
+}
